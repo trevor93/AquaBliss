@@ -25,6 +25,7 @@ const Services = () => {
   const wholesalePackages = [
     { product: '500ml carton', quantity: '24 pcs', price: 'KSh 350' },
     { product: '1 Litre carton', quantity: '12 pcs', price: 'KSh 350' },
+    { product: '5 Litre carton', quantity: '4 pcs', price: 'KSh 370' },
     { product: '10 Litre carton', quantity: '4 pcs', price: 'KSh 800' },
     { product: '20 Litre carton', quantity: '4 pcs', price: 'KSh 1,600' }
   ];
