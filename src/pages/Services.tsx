@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Truck, Clock, Shield, CheckCircle, Smartphone, Banknote, Package, Palette, ShoppingCart } from 'lucide-react';
+import { Truck, Clock, Shield, CheckCircle, Smartphone, Banknote, Package, Palette, ShoppingCart, MessageCircle } from 'lucide-react';
 
 const Services = () => {
   const retailServices = [
@@ -164,6 +164,15 @@ const Services = () => {
                     >
                       Order Now
                     </Link>
+                    <a
+                      href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20order%20wholesale%20water"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-green-500 text-white py-2 px-4 rounded-full font-semibold hover:bg-green-600 transition-all block text-center text-sm mt-2 flex items-center justify-center space-x-1"
+                    >
+                      <MessageCircle className="h-4 w-4" />
+                      <span>WhatsApp</span>
+                    </a>
                   </div>
                 </div>
               ))}
@@ -196,6 +205,15 @@ const Services = () => {
                 >
                   <Package className="h-5 w-5" />
                   <span>Bulk Order Inquiry</span>
+                </a>
+                <a
+                  href="https://wa.me/254743970594?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20inquire%20about%20bulk%20orders"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-600 transform hover:scale-105 transition-all shadow-xl inline-flex items-center space-x-2 ml-4"
+                >
+                  <MessageCircle className="h-5 w-5" />
+                  <span>WhatsApp Bulk</span>
                 </a>
               </div>
             </div>
@@ -242,6 +260,15 @@ const Services = () => {
                   >
                     Order Bottle
                   </Link>
+                  <a
+                    href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20order%20empty%20bottles"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-500 text-white py-3 px-8 rounded-full font-semibold hover:bg-green-600 transition-all mt-3 inline-flex items-center space-x-2"
+                  >
+                    <MessageCircle className="h-4 w-4" />
+                    <span>WhatsApp Order</span>
+                  </a>
                 </div>
               </div>
             ))}
@@ -623,6 +650,15 @@ const Services = () => {
             >
               Place Your Order
             </Link>
+            <a
+              href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20place%20an%20order"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-600 transform hover:scale-105 transition-all shadow-xl flex items-center justify-center space-x-2"
+            >
+              <MessageCircle className="h-5 w-5" />
+              <span>WhatsApp Order</span>
+            </a>
             <a
               href="tel:0746808075"
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-sky-600 transition-colors"

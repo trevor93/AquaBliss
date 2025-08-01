@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette } from 'lucide-react';
+import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette, MessageCircle } from 'lucide-react';
 
 const Home = () => {
   const features = [
@@ -221,6 +221,24 @@ const Home = () => {
                 >
                   <span>Order Now</span>
                 </Link>
+                <a
+                  href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20place%20an%20order"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-600 transform hover:scale-105 transition-all shadow-xl flex items-center justify-center space-x-2"
+                >
+                  <MessageCircle className="h-5 w-5" />
+                  <span>WhatsApp Order</span>
+                </a>
+                <a
+                  href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20place%20an%20order"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-600 transform hover:scale-105 transition-all shadow-xl flex items-center justify-center space-x-2"
+                >
+                  <MessageCircle className="h-5 w-5" />
+                  <span>WhatsApp Order</span>
+                </a>
                 <Link
                   to="/services"
                   className="border-2 border-sky-500 text-sky-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-sky-50 transition-colors flex items-center justify-center space-x-2"
@@ -393,6 +411,15 @@ const Home = () => {
             >
               Order Now
             </Link>
+            <a
+              href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20place%20an%20order"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-green-600 transform hover:scale-105 transition-all shadow-xl flex items-center justify-center space-x-2"
+            >
+              <MessageCircle className="h-5 w-5" />
+              <span>WhatsApp Order</span>
+            </a>
             <a
               href="tel:0746808075"
               className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-sky-600 transition-colors"
