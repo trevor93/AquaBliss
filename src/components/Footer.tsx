@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Heart } from 'lucide-react';
+import { Phone, Mail, MapPin, Heart, Facebook, Twitter, Instagram, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -109,8 +109,56 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Payment Methods */}
+        {/* Social Media Links */}
         <div className="border-t border-gray-800 mt-12 pt-8">
+          <div className="text-center">
+            <h4 className="font-semibold mb-6 text-white">Follow Us</h4>
+            <div className="flex justify-center items-center space-x-6">
+              <a
+                href="https://www.facebook.com/share/1L5ShFthsi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-blue-600 hover:bg-blue-700 p-3 rounded-full transition-colors transform hover:scale-110 shadow-lg"
+                aria-label="Follow us on Facebook"
+              >
+                <Facebook className="h-6 w-6 text-white" />
+              </a>
+              <a
+                href="https://x.com/Aquabliss_Ltd?t=1Lb4U9EKipKASCGHmwhZRA&s=09"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-black hover:bg-gray-800 p-3 rounded-full transition-colors transform hover:scale-110 shadow-lg"
+                aria-label="Follow us on X (Twitter)"
+              >
+                <Twitter className="h-6 w-6 text-white" />
+              </a>
+              <a
+                href="https://www.instagram.com/aquablisslimited?igsh=MTVyZHJiNjUzMjZmMA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 p-3 rounded-full transition-colors transform hover:scale-110 shadow-lg"
+                aria-label="Follow us on Instagram"
+              >
+                <Instagram className="h-6 w-6 text-white" />
+              </a>
+              <a
+                href="https://wa.me/254746808075?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20place%20an%20order"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-500 hover:bg-green-600 p-3 rounded-full transition-colors transform hover:scale-110 shadow-lg"
+                aria-label="Contact us on WhatsApp"
+              >
+                <MessageCircle className="h-6 w-6 text-white" />
+              </a>
+            </div>
+            <p className="text-gray-400 text-sm mt-4">
+              Stay connected for updates, offers, and water delivery tips!
+            </p>
+          </div>
+        </div>
+
+        {/* Payment Methods */}
+        <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="text-center">
             <h4 className="font-semibold mb-4">We Accept</h4>
             <div className="flex justify-center items-center space-x-8">
