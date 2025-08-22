@@ -8,7 +8,7 @@ const Contact = () => {
     email: '',
     address: '',
     serviceType: 'retail',
-    waterSize: '20-bottle',
+    waterSize: '',
     quantity: '1',
     paymentMethod: 'mpesa',
     needChange: '',
@@ -19,10 +19,21 @@ const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
+    const { name, value } = e.target;
+    
+    // Reset waterSize when service type changes
+    if (name === 'serviceType') {
+      setFormData({
+        ...formData,
+        [name]: value,
+        waterSize: '' // Reset to empty so user must select
+      });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value
+      });
+    }
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -82,7 +93,7 @@ const Contact = () => {
         email: '',
         address: '',
         serviceType: 'retail',
-        waterSize: '20-bottle',
+        waterSize: '',
         quantity: '1',
         paymentMethod: 'mpesa',
         needChange: '',
@@ -346,8 +357,10 @@ const Contact = () => {
                         name="waterSize"
                         value={formData.waterSize}
                         onChange={handleChange}
+                        required
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors"
                       >
+                        <option value="">Select a product/service</option>
                         {getServiceOptions().map((option) => (
                           <option key={option.value} value={option.value}>
                             {option.label}
@@ -360,16 +373,17 @@ const Contact = () => {
                       <label className="block text-sm font-medium text-gray-700 mb-2">
                         Quantity *
                       </label>
-                      <select
+                      <input
+                        type="number"
                         name="quantity"
                         value={formData.quantity}
                         onChange={handleChange}
+                        required
+                        min="1"
+                        step="1"
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors"
-                      >
-                        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(num => (
-                          <option key={num} value={num}>{num}</option>
-                        ))}
-                      </select>
+                        placeholder="Enter quantity (e.g., 5, 20, 100)"
+                      />
                     </div>
                   </div>
                 </div>
@@ -474,23 +488,38 @@ const Contact = () => {
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h4 className="font-semibold text-gray-900 mb-3">Order Summary</h4>
                   <div className="space-y-2 text-sm">
-                    <div className="flex justify-between">
-                      <span>{formData.quantity}x {getServiceOptions().find(opt => opt.value === formData.waterSize)?.label.split(' - ')[0] || 'Selected item'}</span>
-                      <span>KSh {calculateTotal()}</span>
-                    </div>
-                    <div className="border-t pt-2 flex justify-between font-semibold">
-                      <span>Total</span>
-                      <span>KSh {calculateTotal()}</span>
-                    </div>
+                    {formData.waterSize ? (
+                      <>
+                        <div className="flex justify-between">
+                          <span>{formData.quantity}x {getServiceOptions().find(opt => opt.value === formData.waterSize)?.label.split(' - ')[0] || 'Selected item'}</span>
+                          <span>KSh {calculateTotal()}</span>
+                        </div>
+                        <div className="border-t pt-2 flex justify-between font-semibold">
+                          <span>Total</span>
+                          <span>KSh {calculateTotal()}</span>
+                        </div>
+                      </>
+                    ) : (
+                      <div className="text-gray-500 text-center py-4">
+                        Please select a product/service to see pricing
+                      </div>
+                    )}
                   </div>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-gradient-to-r from-sky-500 to-sky-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:from-sky-600 hover:to-sky-700 transform hover:scale-105 transition-all shadow-lg flex items-center justify-center space-x-2"
+                  disabled={!formData.waterSize}
+                  className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-all shadow-lg flex items-center justify-center space-x-2 ${
+                    formData.waterSize 
+                      ? 'bg-gradient-to-r from-sky-500 to-sky-600 text-white hover:from-sky-600 hover:to-sky-700 transform hover:scale-105' 
+                      : 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                  }`}
                 >
                   <Send className="h-5 w-5" />
-                  <span>Place Order - KSh {calculateTotal()}</span>
+                  <span>
+                    {formData.waterSize ? `Place Order - KSh ${calculateTotal()}` : 'Select Product to Continue'}
+                  </span>
                 </button>
               </form>
 
