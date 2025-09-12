@@ -23,7 +23,7 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="group-hover:scale-105 transition-transform">
               <img 
-                src="/IMG-20250703-WA0001.jpg" 
+                src="/AquaBliss Logo Image.jpg" 
                 alt="Aqua Bliss - Pure Water, Pure Bliss" 
                 className="h-12 w-auto object-contain"
               />

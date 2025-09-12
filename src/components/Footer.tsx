@@ -1,5 +1,6 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Heart, Facebook, Twitter, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Heart, Facebook, Twitter, Instagram, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -13,7 +14,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-6">
               <div className="bg-white p-2 rounded-full">
                 <img 
-                  src="/IMG-20250703-WA0001.jpg" 
+                  src="/AquaBliss Logo Image.jpg" 
                   alt="Aqua Bliss - Pure Water, Pure Bliss" 
                   className="h-8 w-auto object-contain"
                 />

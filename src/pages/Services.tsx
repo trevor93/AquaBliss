@@ -78,7 +78,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex justify-center mb-6">
             <img 
-              src="/IMG-20250703-WA0001.jpg" 
+              src="/AquaBliss Logo Image.jpg" 
               alt="Aqua Bliss Logo" 
               className="h-16 w-auto object-contain"
             />
@@ -184,7 +184,7 @@ const Services = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-3xl p-6 shadow-2xl">
                 <img 
-                  src="/IMG-20250703-WA0007.jpg" 
+                  src="/AquaBliss Wholesale Package Image.jpg" 
                   alt="Aqua Bliss wholesale water packages ready for delivery" 
                   className="w-full h-auto object-cover rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-500"
                 />
@@ -251,7 +251,7 @@ const Services = () => {
                 <div className="text-center">
                   <div className="bg-gradient-to-r from-sky-100 to-sky-200 p-4 rounded-full w-fit mx-auto mb-6">
                     <img 
-                      src="/IMG-20250703-WA0001.jpg" 
+                      src="/AquaBliss Logo Image.jpg" 
                       alt="Aqua Bliss Logo" 
                       className="h-8 w-auto object-contain"
                     />
@@ -359,7 +359,7 @@ const Services = () => {
               <div className="relative group">
                 <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                   <img 
-                    src="/IMG-20250703-WA0002.jpg" 
+                    src="/AquaBliss Brand Image.jpg" 
                     alt="Aqua Bliss branded water bottles showcase" 
                     className="w-full h-80 object-cover rounded-xl shadow-md group-hover:scale-105 transition-transform duration-300"
                   />
@@ -376,7 +376,7 @@ const Services = () => {
               <div className="relative group">
                 <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
                   <img 
-                    src="/IMG-20250703-WA0003.jpg" 
+                    src="/AquaBliss Custom Event Branding Image.jpg" 
                     alt="Custom branded water bottles for special events" 
                     className="w-full h-80 object-cover rounded-xl shadow-md group-hover:scale-105 transition-transform duration-300"
                   />

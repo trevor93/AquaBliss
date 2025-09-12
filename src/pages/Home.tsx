@@ -1,5 +1,6 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette } from 'lucide-react';
+import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette, MessageCircle } from 'lucide-react';
 
 const Home = () => {
   const features = [
@@ -77,7 +78,7 @@ const Home = () => {
           <div className="text-center">
             <div className="flex justify-center mb-8">
               <img 
-                src="/IMG-20250703-WA0001.jpg" 
+                src="/AquaBliss Logo Image.jpg" 
                 alt="Aqua Bliss - Pure Water, Pure Bliss" 
                 className="h-32 w-auto object-contain animate-pulse"
               />
@@ -141,7 +142,7 @@ const Home = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-3xl p-8 shadow-2xl">
                 <img 
-                  src="/IMG-20250703-WA0002.jpg" 
+                  src="/AquaBliss Brand Image.jpg" 
                   alt="Aqua Bliss branded water bottles with pure clean water" 
                   className="w-full h-auto object-cover rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-500"
                 />
@@ -305,7 +306,7 @@ const Home = () => {
           <div className="text-center mb-16">
             <div className="flex justify-center mb-6">
               <img 
-                src="/IMG-20250703-WA0001.jpg" 
+                src="/AquaBliss Logo Image.jpg" 
                 alt="Aqua Bliss Logo" 
                 className="h-16 w-auto object-contain"
               />
