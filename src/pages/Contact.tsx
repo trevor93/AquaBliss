@@ -180,9 +180,9 @@ const Contact = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-6">Your Aqua Bliss order is delivered right to your doorstep — fast and professional.</h3>
             
             <div className="bg-white rounded-2xl shadow-xl p-6 max-w-2xl mx-auto mb-6">
-              <img 
-                src="/WhatsApp Image 2025-07-06 at 23.07.20_a116d8b8 copy.jpg" 
-                alt="Aqua Bliss branded delivery car with professional service" 
+              <img
+                src="/AquaBliss Homepage image.jpg"
+                alt="Aqua Bliss branded delivery car with professional service"
                 className="w-full h-auto object-cover rounded-xl shadow-lg"
               />
             </div>
@@ -529,9 +529,9 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-gray-900 mb-6">Your Aqua Bliss order is delivered right to your doorstep — fast and professional.</h3>
                   
                   <div className="bg-gradient-to-br from-sky-50 to-white rounded-2xl shadow-lg p-6 mb-6">
-                    <img 
-                      src="/WhatsApp Image 2025-07-06 at 23.07.20_a116d8b8 copy.jpg" 
-                      alt="Aqua Bliss branded delivery car with professional service" 
+                    <img
+                      src="/AquaBliss Homepage image.jpg"
+                      alt="Aqua Bliss branded delivery car with professional service"
                       className="w-full h-auto object-cover rounded-xl shadow-lg"
                     />
                   </div>
