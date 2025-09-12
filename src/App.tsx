@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import BottleDesign from './pages/BottleDesign';
 import Contact from './pages/Contact';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/bottle-design" element={<BottleDesign />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
