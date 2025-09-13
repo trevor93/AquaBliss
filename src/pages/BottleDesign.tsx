@@ -44,6 +44,13 @@ const BottleDesign = () => {
       title: 'Elegant Custom Label',
       type: 'Custom Branded',
       description: 'Sophisticated custom design with elegant styling'
+    },
+    {
+      id: 7,
+      image: '/AquaBliss Bottle Design 7.jpg',
+      title: 'Premium Custom Design',
+      type: 'Custom Branded',
+      description: 'High-end custom branding with sophisticated appeal'
     }
   ];
 
@@ -112,10 +119,10 @@ const BottleDesign = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
             {brandedBottles.map((design) => (
               <div key={design.id} className="group bg-gradient-to-br from-sky-50 to-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                <div className="aspect-w-4 aspect-h-5 bg-white p-6">
+                <div className="bg-white p-6">
                   <img
                     src={design.image}
                     alt={design.title}
