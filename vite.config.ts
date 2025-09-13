@@ -7,7 +7,4 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
 });

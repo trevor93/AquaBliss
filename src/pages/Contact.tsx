@@ -167,11 +167,11 @@ const Contact = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-sky-50 to-white flex items-center justify-center py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-green-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-            <CheckCircle className="h-12 w-12 text-green-600" />
+          <div className="bg-gradient-to-r from-blue-100 to-cyan-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+            <CheckCircle className="h-12 w-12 text-blue-600" />
           </div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Order Received!</h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent mb-4">Water Order Received!</h2>
+          <p className="text-lg text-blue-700 mb-8 font-medium">
             Thank you for your order. We'll contact you shortly to confirm delivery details.
           </p>
           
@@ -211,14 +211,28 @@ const Contact = () => {
   return (
     <div className="py-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-sky-50 to-white py-16">
+      <section className="bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 py-16 border-b-4 border-blue-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Order Your Water Now
+          <div className="bg-gradient-to-r from-blue-100 to-cyan-100 p-4 rounded-full w-fit mx-auto mb-6">
+            <div className="bg-white p-3 rounded-full">
+              <img 
+                src="/AquaBliss Logo Image.jpg" 
+                alt="Aqua Bliss Logo" 
+                className="h-12 w-auto object-contain"
+              />
+            </div>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent mb-6">
+            Order for Water Services
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-blue-700 max-w-3xl mx-auto leading-relaxed font-medium">
             Fill out the form below to place your order. We'll contact you to confirm delivery details and process your payment.
           </p>
+          <div className="mt-8 bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg max-w-2xl mx-auto border border-blue-200">
+            <p className="text-blue-800 font-semibold">
+              🌊 Premium Water Delivery Services • Same Day Delivery • M-Pesa & Cash Payments
+            </p>
+          </div>
         </div>
       </section>
 
@@ -226,8 +240,15 @@ const Contact = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Order Form */}
           <div className="lg:col-span-2">
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Place Your Order</h2>
+            <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-blue-400">
+              <div className="flex items-center space-x-3 mb-6">
+                <div className="bg-gradient-to-r from-blue-100 to-cyan-100 p-3 rounded-full">
+                  <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h2 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Place Your Water Order</h2>
+              </div>
               
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Personal Information */}
@@ -257,7 +278,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                       placeholder="0746808075"
                     />
                   </div>
@@ -272,7 +293,7 @@ const Contact = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -287,7 +308,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={3}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-sky-500 transition-colors"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
                     placeholder="Enter your complete delivery address including landmarks"
                   />
                 </div>
@@ -512,7 +533,7 @@ const Contact = () => {
                   disabled={!formData.waterSize}
                   className={`w-full py-4 px-6 rounded-lg font-semibold text-lg transition-all shadow-lg flex items-center justify-center space-x-2 ${
                     formData.waterSize 
-                      ? 'bg-gradient-to-r from-sky-500 to-sky-600 text-white hover:from-sky-600 hover:to-sky-700 transform hover:scale-105' 
+                      ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white hover:from-blue-600 hover:to-cyan-600 transform hover:scale-105 shadow-blue-200' 
                       : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                   }`}
                 >

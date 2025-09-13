@@ -140,11 +140,11 @@ const BrandingOrder = () => {
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-sky-50 flex items-center justify-center py-20">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <div className="bg-green-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-            <CheckCircle className="h-12 w-12 text-green-600" />
+          <div className="bg-gradient-to-r from-blue-100 to-cyan-100 p-6 rounded-full w-24 h-24 mx-auto mb-6 flex items-center justify-center">
+            <CheckCircle className="h-12 w-12 text-blue-600" />
           </div>
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">Branding Order Received!</h2>
-          <p className="text-lg text-gray-600 mb-8">
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent mb-4">Branding Order Received!</h2>
+          <p className="text-lg text-blue-700 mb-8 font-medium">
             Thank you for your branding order. Our design team will contact you shortly to discuss your project details and timeline.
           </p>
           
@@ -193,20 +193,29 @@ const BrandingOrder = () => {
   return (
     <div className="py-20">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-purple-50 via-sky-50 to-white py-16">
+      <section className="bg-gradient-to-br from-blue-50 via-cyan-50 to-purple-50 py-16 border-b-4 border-blue-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex justify-center mb-6">
-            <div className="bg-gradient-to-r from-purple-100 to-sky-100 p-4 rounded-full">
-              <Palette className="h-12 w-12 text-purple-600" />
+          <div className="bg-gradient-to-r from-blue-100 to-cyan-100 p-4 rounded-full w-fit mx-auto mb-6">
+            <div className="bg-white p-3 rounded-full">
+              <img 
+                src="/AquaBliss Logo Image.jpg" 
+                alt="Aqua Bliss Logo" 
+                className="h-12 w-auto object-contain"
+              />
             </div>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Order Your Branding Service
+          <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent mb-6">
+            Order for Branding Services
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
+          <p className="text-xl text-blue-700 max-w-3xl mx-auto leading-relaxed mb-8 font-medium">
             Transform your event with custom-branded water bottles. From weddings to corporate events, 
             we create personalized designs that make your occasion unforgettable.
           </p>
+          <div className="bg-white/80 backdrop-blur-sm p-4 rounded-2xl shadow-lg max-w-2xl mx-auto border border-blue-200 mb-8">
+            <p className="text-blue-800 font-semibold">
+              🎨 Custom Branding Services • Professional Design • Waterproof Labels • Event Ready
+            </p>
+          </div>
           
           {/* Service Options Preview */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -238,8 +247,13 @@ const BrandingOrder = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Place Your Branding Order</h2>
-              <p className="text-lg text-gray-600">
+              <div className="flex items-center justify-center space-x-3 mb-6">
+                <div className="bg-gradient-to-r from-blue-100 to-cyan-100 p-3 rounded-full">
+                  <Palette className="h-8 w-8 text-blue-600" />
+                </div>
+                <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Place Your Branding Order</h2>
+              </div>
+              <p className="text-lg text-blue-700 font-medium">
                 Fill out the details below and we'll create the perfect branded water bottles for your event
               </p>
             </div>
@@ -554,7 +568,7 @@ const BrandingOrder = () => {
                   disabled={!formData.name || !formData.phone || !formData.completionDate || !formData.completionTime}
                   className={`w-full md:w-auto px-12 py-4 rounded-full font-semibold text-lg transition-all shadow-xl ${
                     formData.name && formData.phone && formData.completionDate && formData.completionTime
-                      ? 'bg-gradient-to-r from-purple-500 to-sky-500 text-white hover:from-purple-600 hover:to-sky-600 transform hover:scale-105' 
+                      ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white hover:from-blue-600 hover:to-cyan-600 transform hover:scale-105 shadow-blue-200' 
                       : 'bg-gray-300 text-gray-500 cursor-not-allowed'
                   }`}
                 >

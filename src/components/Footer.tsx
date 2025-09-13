@@ -48,10 +48,10 @@ const Footer = () => {
                 Bottle Design
               </Link>
               <Link to="/branding-order" className="block text-gray-300 hover:text-sky-400 transition-colors">
-                Branding Order
+                Order for Branding Services
               </Link>
               <Link to="/contact" className="block text-gray-300 hover:text-sky-400 transition-colors">
-                Order Water
+                Order for Water Services
               </Link>
             </nav>
             <div className="mt-6">
