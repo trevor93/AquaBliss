@@ -1,6 +1,5 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette, MessageCircle } from 'lucide-react';
+import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette } from 'lucide-react';
 
 const Home = () => {
   const features = [

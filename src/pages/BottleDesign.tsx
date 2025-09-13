@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Palette, Star, CheckCircle, Phone } from 'lucide-react';
 
@@ -208,7 +207,7 @@ const BottleDesign = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="bg-gradient-to-br from-purple-50 to-white p-6 rounded-xl">
                 <h5 className="text-xl font-bold text-gray-900 mb-3">Branding + Design Service</h5>
-                <div className="text-3xl font-bold text-purple-600 mb-3">KSh 450</div>
+                <div className="text-3xl font-bold text-purple-600 mb-3">KSh 480</div>
                 <p className="text-gray-600 mb-4">per carton (500ml or 1L)</p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-center space-x-2">
@@ -227,7 +226,7 @@ const BottleDesign = () => {
               </div>
 
               <div className="bg-gradient-to-br from-sky-50 to-white p-6 rounded-xl">
-                <h5 className="text-xl font-bold text-gray-900 mb-3">Branding Only Service</h5>
+                <h5 className="text-xl font-bold text-gray-900 mb-3">Branding Service Only</h5>
                 <div className="text-3xl font-bold text-sky-600 mb-3">KSh 350</div>
                 <p className="text-gray-600 mb-4">per carton (500ml or 1L)</p>
                 <ul className="space-y-2 text-sm text-gray-600">
