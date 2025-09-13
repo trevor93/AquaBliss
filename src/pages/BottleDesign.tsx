@@ -226,7 +226,7 @@ const BottleDesign = () => {
               </div>
 
               <div className="bg-gradient-to-br from-sky-50 to-white p-6 rounded-xl">
-                <h5 className="text-xl font-bold text-gray-900 mb-3">Branding Service Only</h5>
+                <h5 className="text-xl font-bold text-gray-900 mb-3">Service For Branding</h5>
                 <div className="text-3xl font-bold text-sky-600 mb-3">KSh 350</div>
                 <p className="text-gray-600 mb-4">per carton (500ml or 1L)</p>
                 <ul className="space-y-2 text-sm text-gray-600">
