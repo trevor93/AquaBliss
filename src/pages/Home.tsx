@@ -141,8 +141,8 @@ const Home = () => {
             <div className="relative">
               <div className="bg-gradient-to-br from-sky-50 to-sky-100 rounded-3xl p-8 shadow-2xl">
                 <img 
-                  src="/AquaBliss Brand Image.jpg" 
-                  alt="Aqua Bliss branded water bottles with pure clean water" 
+                  src="/AquaBliss Homepage image.jpg" 
+                  alt="AquaBliss Homepage - Pure Water, Pure Bliss" 
                   className="w-full h-auto object-cover rounded-2xl shadow-lg transform hover:scale-105 transition-transform duration-500"
                 />
                 {/* Floating badge */}
