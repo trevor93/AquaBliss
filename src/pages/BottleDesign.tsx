@@ -57,7 +57,7 @@ const BottleDesign = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="flex justify-center mb-6">
             <img 
-              src="/IMG-20250703-WA0001.jpg" 
+              src="/AquaBliss Logo Image.jpg" 
               alt="Aqua Bliss Logo" 
               className="h-16 w-auto object-contain"
             />
@@ -226,7 +226,7 @@ const BottleDesign = () => {
               </div>
 
               <div className="bg-gradient-to-br from-sky-50 to-white p-6 rounded-xl">
-                <h5 className="text-xl font-bold text-gray-900 mb-3">Service For Branding</h5>
+                <h5 className="text-xl font-bold text-gray-900 mb-3">Branding Service Only</h5>
                 <div className="text-3xl font-bold text-sky-600 mb-3">KSh 350</div>
                 <p className="text-gray-600 mb-4">per carton (500ml or 1L)</p>
                 <ul className="space-y-2 text-sm text-gray-600">
@@ -261,6 +261,13 @@ const BottleDesign = () => {
                   <Phone className="h-5 w-5" />
                   <span>Call for Custom Branding: 0743970594</span>
                 </a>
+                <Link
+                  to="/branding-order"
+                  className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-sky-600 hover:to-sky-700 transform hover:scale-105 transition-all shadow-xl flex items-center justify-center space-x-2"
+                >
+                  <Palette className="h-5 w-5" />
+                  <span>Order Branding Online</span>
+                </Link>
                 <a
                   href="https://wa.me/254743970594?text=Hello%20Aqua%20Bliss,%20I%20would%20like%20to%20inquire%20about%20custom%20bottle%20branding"
                   target="_blank"

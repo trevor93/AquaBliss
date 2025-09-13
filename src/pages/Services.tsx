@@ -42,7 +42,7 @@ const Services = () => {
       unit: 'per carton (500ml or 1L)'
     },
     {
-      service: 'Service For Branding',
+      service: 'Branding Service Only',
       description: 'Using your existing design',
       price: 'KSh 350',
       unit: 'per carton (500ml or 1L)'
@@ -340,6 +340,12 @@ const Services = () => {
                 >
                   Call for Branding: 0743970594
                 </a>
+                <Link
+                  to="/branding-order"
+                  className="w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white py-3 px-6 rounded-full font-semibold hover:from-purple-600 hover:to-purple-700 transition-all block text-center mt-3"
+                >
+                  Order Branding Online
+                </Link>
               </div>
             ))}
           </div>

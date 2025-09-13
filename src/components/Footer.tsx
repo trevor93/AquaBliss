@@ -47,6 +47,9 @@ const Footer = () => {
               <Link to="/bottle-design" className="block text-gray-300 hover:text-sky-400 transition-colors">
                 Bottle Design
               </Link>
+              <Link to="/branding-order" className="block text-gray-300 hover:text-sky-400 transition-colors">
+                Branding Order
+              </Link>
               <Link to="/contact" className="block text-gray-300 hover:text-sky-400 transition-colors">
                 Order Water
               </Link>
