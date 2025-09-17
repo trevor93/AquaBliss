@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://aquabliss.co.ke/sitemap.xml
+Sitemap: https://aquablisswaters.com/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

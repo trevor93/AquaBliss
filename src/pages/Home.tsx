@@ -77,7 +77,7 @@ const Home = () => {
         ogTitle="Aqua Bliss - Pure Water Delivery in Thika, Kenya"
         ogDescription="Premium water delivery service in Thika. Same-day delivery, affordable prices starting from KSh 50. Custom branding available."
         ogImage="/AquaBliss Homepage image.jpg"
-        canonicalUrl="https://aquabliss.co.ke"
+        canonicalUrl="https://aquablisswaters.com"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-sky-50 to-white py-20 lg:py-32 overflow-hidden">

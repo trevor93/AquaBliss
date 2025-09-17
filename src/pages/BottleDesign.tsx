@@ -67,7 +67,7 @@ const BottleDesign = () => {
         ogTitle="Custom Water Bottle Design & Branding - Aqua Bliss"
         ogDescription="Professional custom water bottle designs for events and businesses in Thika. High-quality printing, waterproof labels, competitive pricing."
         ogImage="/AquaBliss Bottle Design 1.jpg"
-        canonicalUrl="https://aquabliss.co.ke/bottle-design"
+        canonicalUrl="https://aquablisswaters.com/bottle-design"
       />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-sky-50 to-white py-16">

@@ -80,7 +80,7 @@ const Services = () => {
         ogTitle="Complete Water Services in Thika - Aqua Bliss"
         ogDescription="Retail, wholesale, and custom branding water services in Thika. Competitive pricing, same-day delivery, flexible payment options."
         ogImage="/AquaBliss Wholesale Package Image.jpg"
-        canonicalUrl="https://aquabliss.co.ke/services"
+        canonicalUrl="https://aquablisswaters.com/services"
       />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-sky-50 to-white py-16">

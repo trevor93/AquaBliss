@@ -218,7 +218,7 @@ const Contact = () => {
         ogTitle="Order Water Online in Thika - Same Day Delivery"
         ogDescription="Easy online water ordering in Thika. Same-day delivery, flexible payment options, competitive pricing. Order pure water now."
         ogImage="/AquaBliss Order Image.jpg"
-        canonicalUrl="https://aquabliss.co.ke/contact"
+        canonicalUrl="https://aquablisswaters.com/contact"
       />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 py-16 border-b-4 border-blue-400">

@@ -200,7 +200,7 @@ const BrandingOrder = () => {
         ogTitle="Order Custom Water Bottle Branding Online - Aqua Bliss"
         ogDescription="Easy online ordering for custom water bottle branding in Thika. Professional design services, competitive pricing, perfect for events."
         ogImage="/AquaBliss Custom Event Branding Image.jpg"
-        canonicalUrl="https://aquabliss.co.ke/branding-order"
+        canonicalUrl="https://aquablisswaters.com/branding-order"
       />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-cyan-50 to-purple-50 py-16 border-b-4 border-blue-400">
