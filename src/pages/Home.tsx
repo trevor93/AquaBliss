@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEOHead from '../components/SEOHead';
 import { Truck, Shield, Clock, Star, CheckCircle, Package, Palette } from 'lucide-react';
 
 const Home = () => {
@@ -69,6 +70,15 @@ const Home = () => {
 
   return (
     <div>
+      <SEOHead
+        title="Aqua Bliss - Pure Water Delivery in Thika, Kenya | Same Day Delivery"
+        description="Premium water delivery service in Thika, Kenya. Same-day delivery, M-Pesa payments, custom branding services. From KSh 50 refills to wholesale packages. Order pure, clean water now!"
+        keywords="water delivery Thika, clean water Kenya, M-Pesa water payment, same day water delivery, custom water branding, wholesale water Thika, water refill services, pure water Thika, Aqua Bliss water, water bottles Kenya"
+        ogTitle="Aqua Bliss - Pure Water Delivery in Thika, Kenya"
+        ogDescription="Premium water delivery service in Thika. Same-day delivery, affordable prices starting from KSh 50. Custom branding available."
+        ogImage="/AquaBliss Homepage image.jpg"
+        canonicalUrl="https://aquabliss.co.ke"
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-sky-50 to-white py-20 lg:py-32 overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23e0f2fe%22 fill-opacity=%220.4%22%3E%3Ccircle cx=%227%22 cy=%227%22 r=%221%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-30"></div>

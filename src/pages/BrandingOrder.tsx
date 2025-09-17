@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import SEOHead from '../components/SEOHead';
 import { Calendar, Upload, User, Phone, Mail, MessageSquare, CheckCircle, Palette, Star, Image as ImageIcon } from 'lucide-react';
 
 const BrandingOrder = () => {
@@ -192,6 +193,15 @@ const BrandingOrder = () => {
 
   return (
     <div className="py-20">
+      <SEOHead
+        title="Order Custom Water Bottle Branding Services Online | Aqua Bliss Thika"
+        description="Order custom water bottle branding online in Thika. Design + branding KSh 480/carton, branding only KSh 350/carton. Perfect for weddings, birthdays, corporate events. Easy online ordering."
+        keywords="order water bottle branding online, custom water bottles Thika, wedding water bottles order, corporate branding water, event water bottles Kenya, online branding order Thika"
+        ogTitle="Order Custom Water Bottle Branding Online - Aqua Bliss"
+        ogDescription="Easy online ordering for custom water bottle branding in Thika. Professional design services, competitive pricing, perfect for events."
+        ogImage="/AquaBliss Custom Event Branding Image.jpg"
+        canonicalUrl="https://aquabliss.co.ke/branding-order"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-cyan-50 to-purple-50 py-16 border-b-4 border-blue-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

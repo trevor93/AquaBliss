@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SEOHead from '../components/SEOHead';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle, Smartphone, Banknote, Truck, Facebook, Twitter, Instagram } from 'lucide-react';
 
 const Contact = () => {
@@ -210,6 +211,15 @@ const Contact = () => {
 
   return (
     <div className="py-20">
+      <SEOHead
+        title="Order Water Online in Thika | Same Day Delivery | M-Pesa Payment - Aqua Bliss"
+        description="Order pure water online in Thika with same-day delivery. Retail from KSh 50, wholesale packages available. M-Pesa and cash payments accepted. Easy online ordering form."
+        keywords="order water online Thika, water delivery order form, same day water delivery Thika, M-Pesa water payment, cash on delivery water, online water order Kenya"
+        ogTitle="Order Water Online in Thika - Same Day Delivery"
+        ogDescription="Easy online water ordering in Thika. Same-day delivery, flexible payment options, competitive pricing. Order pure water now."
+        ogImage="/AquaBliss Order Image.jpg"
+        canonicalUrl="https://aquabliss.co.ke/contact"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-50 via-sky-50 to-cyan-50 py-16 border-b-4 border-blue-400">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

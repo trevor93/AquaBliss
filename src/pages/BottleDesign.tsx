@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEOHead from '../components/SEOHead';
 import { Palette, Star, CheckCircle, Phone } from 'lucide-react';
 
 const BottleDesign = () => {
@@ -59,6 +60,15 @@ const BottleDesign = () => {
 
   return (
     <div className="py-20">
+      <SEOHead
+        title="Custom Water Bottle Design & Branding Services Thika | Aqua Bliss"
+        description="Professional water bottle design and branding in Thika. Custom designs for weddings, birthdays, corporate events. From KSh 350 per carton. Waterproof labels, vibrant colors."
+        keywords="custom water bottle design Thika, water bottle branding Kenya, wedding water bottles, corporate water branding, event water bottles, custom labels Thika, personalized water bottles Kenya"
+        ogTitle="Custom Water Bottle Design & Branding - Aqua Bliss"
+        ogDescription="Professional custom water bottle designs for events and businesses in Thika. High-quality printing, waterproof labels, competitive pricing."
+        ogImage="/AquaBliss Bottle Design 1.jpg"
+        canonicalUrl="https://aquabliss.co.ke/bottle-design"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-sky-50 to-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

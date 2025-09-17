@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import SEOHead from '../components/SEOHead';
 import { Truck, Clock, Shield, CheckCircle, Smartphone, Banknote, Package, Palette, ShoppingCart } from 'lucide-react';
 
 const Services = () => {
@@ -72,6 +73,15 @@ const Services = () => {
 
   return (
     <div className="py-20">
+      <SEOHead
+        title="Water Delivery Services in Thika | Retail, Wholesale & Custom Branding - Aqua Bliss"
+        description="Complete water services in Thika: Retail water from KSh 50, wholesale packages from KSh 350, custom branding from KSh 350. M-Pesa payments, same-day delivery. View all services."
+        keywords="water services Thika, retail water delivery, wholesale water packages, custom water branding, water refill services, M-Pesa water payment, empty bottles Thika, water delivery pricing Kenya"
+        ogTitle="Complete Water Services in Thika - Aqua Bliss"
+        ogDescription="Retail, wholesale, and custom branding water services in Thika. Competitive pricing, same-day delivery, flexible payment options."
+        ogImage="/AquaBliss Wholesale Package Image.jpg"
+        canonicalUrl="https://aquabliss.co.ke/services"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-sky-50 to-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
