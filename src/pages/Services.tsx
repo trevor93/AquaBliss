@@ -32,7 +32,7 @@ const Services = () => {
 
   const emptyBottles = [
     { size: '10 Litre bottle', price: 'KSh 150' },
-    { size: '20 Litre bottle', price: 'KSh 250' }
+    { size: '20 Litre bottle', price: 'KSh 300' }
   ];
 
   const brandingServices = [
