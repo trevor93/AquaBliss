@@ -168,7 +168,7 @@ const Services = () => {
                     <p className="text-gray-600 mb-3">{pkg.quantity}</p>
                     <div className="text-2xl font-bold text-sky-600 mb-4">{pkg.price}</div>
                     <Link
-                      to="/contact"
+                      to="/order-water-services"
                       className="w-full bg-gradient-to-r from-sky-500 to-sky-600 text-white py-2 px-4 rounded-full font-semibold hover:from-sky-600 hover:to-sky-700 transition-all block text-center text-sm"
                     >
                       Order Now
@@ -268,7 +268,7 @@ const Services = () => {
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">{bottle.size}</h3>
                   <div className="text-4xl font-bold text-sky-600 mb-6">{bottle.price}</div>
                   <Link
-                    to="/contact"
+                    to="/order-water-services"
                     className="bg-gradient-to-r from-sky-500 to-sky-600 text-white py-3 px-8 rounded-full font-semibold hover:from-sky-600 hover:to-sky-700 transition-all"
                   >
                     Order Bottle
@@ -351,7 +351,7 @@ const Services = () => {
                   Call for Branding: 0743970594
                 </a>
                 <Link
-                  to="/branding-order"
+                  to="/order-branding-services"
                   className="w-full bg-gradient-to-r from-purple-500 to-purple-600 text-white py-3 px-6 rounded-full font-semibold hover:from-purple-600 hover:to-purple-700 transition-all block text-center mt-3"
                 >
                   Order Branding Online
@@ -620,7 +620,7 @@ const Services = () => {
 
                 <div className="mt-6">
                   <Link
-                    to="/contact"
+                    to="/order-water-services"
                     className="w-full bg-gradient-to-r from-green-500 to-green-600 text-white py-3 px-6 rounded-full font-semibold hover:from-green-600 hover:to-green-700 transition-all block text-center"
                   >
                     Place Your Order
@@ -666,7 +666,7 @@ const Services = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/contact"
+              to="/order-water-services"
               className="bg-white text-sky-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transform hover:scale-105 transition-all shadow-xl"
             >
               Place Your Order

@@ -6,8 +6,8 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import BottleDesign from './pages/BottleDesign';
-import BrandingOrder from './pages/BrandingOrder';
-import Contact from './pages/Contact';
+import OrderBrandingServices from './pages/OrderBrandingServices';
+import OrderWaterServices from './pages/OrderWaterServices';
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
               <Route path="/bottle-design" element={<BottleDesign />} />
-              <Route path="/branding-order" element={<BrandingOrder />} />
-              <Route path="/contact" element={<Contact />} />
+              <Route path="/order-branding-services" element={<OrderBrandingServices />} />
+              <Route path="/order-water-services" element={<OrderWaterServices />} />
             </Routes>
           </main>
           <Footer />

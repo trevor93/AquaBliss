@@ -279,7 +279,7 @@ const BottleDesign = () => {
                   <span>Call for Custom Branding: 0743970594</span>
                 </a>
                 <Link
-                  to="/branding-order"
+                  to="/order-branding-services"
                   className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-sky-600 hover:to-sky-700 transform hover:scale-105 transition-all shadow-xl flex items-center justify-center space-x-2"
                 >
                   <Palette className="h-5 w-5" />
@@ -362,7 +362,7 @@ const BottleDesign = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/contact"
+              to="/order-water-services"
               className="bg-white text-sky-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transform hover:scale-105 transition-all shadow-xl"
             >
               Place Your Order
