@@ -58,7 +58,7 @@ const Header = () => {
               <span className="text-sm font-medium">0746808075</span>
             </a>
             <Link
-              to="/contact"
+              to="/order-water-services"
               className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-6 py-2 rounded-full font-semibold hover:from-sky-600 hover:to-sky-700 transform hover:scale-105 transition-all shadow-md"
             >
               Order Now
@@ -101,7 +101,7 @@ const Header = () => {
                   <span className="font-medium">0746808075</span>
                 </a>
                 <Link
-                  to="/contact"
+                  to="/order-water-services"
                   onClick={() => setIsMenuOpen(false)}
                   className="bg-gradient-to-r from-sky-500 to-sky-600 text-white px-6 py-2 rounded-full font-semibold hover:from-sky-600 hover:to-sky-700 transition-all shadow-md ml-4 inline-block"
                 >

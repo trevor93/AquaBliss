@@ -28,17 +28,17 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Branding Order Page -->
+  <!-- Order for Branding Services Page -->
   <url>
-    <loc>https://aquablisswaters.com/branding-order</loc>
+    <loc>https://aquablisswaters.com/order-branding-services</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Contact/Order Water Page -->
+  <!-- Order for Water Services Page -->
   <url>
-    <loc>https://aquablisswaters.com/contact</loc>
+    <loc>https://aquablisswaters.com/order-water-services</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
