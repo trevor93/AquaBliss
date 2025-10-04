@@ -80,10 +80,11 @@ const OrderBrandingServices = () => {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Order Branding Services - Professional Brand Design | AquaBliss"
         description="Order professional branding services from AquaBliss. Get custom logo design, brand identity, and complete visual branding solutions for your business."
-        canonical="https://aquabliss.com/order-branding-services"
+        canonicalUrl="https://aquabliss.com/order-branding-services"
+        keywords="branding services, logo design, brand identity, AquaBliss"
       />
       
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
